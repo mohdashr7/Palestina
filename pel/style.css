@@ -1,0 +1,183 @@
+body{
+    background-color: #6b705c
+    ;
+    color: #ffe8d6;
+}
+
+.ref{
+    width: 490px;
+     border: 7px solid #ffe8d6;
+    border-radius: 10px; /* تجعل الحدود مستديرة */
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+.pelt{
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+.thi{
+margin: 0 auto;
+max-width: 100%;
+height: auto;
+
+
+}
+
+
+.arrow-down{
+
+
+width: 0;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-top: 250px solid #cb997e;
+margin:0 auto;
+max-width: 100%;
+height: auto;
+
+
+}
+
+
+.how{
+    color: #ddbea9;
+    font-family: 'Oswald', sans-serif;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.pp{
+width: 250px;    
+max-width: 100%;
+height: auto;
+max-width: 100%;
+height: auto;
+
+    }
+.mo{
+    float: right;
+    color: #6b705c;
+    max-width: 100%;
+    height: auto;
+
+}
+
+ .thi{
+    display: block;
+    margin:0 auto;
+    max-width: 100%;
+    height: auto;
+
+ }
+
+
+ .wat{
+    background-color: #ffe8d6;
+    max-width: 100%;
+    height: auto;
+
+ }
+
+
+ .binnengekomen{
+    background-color: #cb997e;
+    max-width: 100%;
+    height: auto;
+
+
+ }
+
+
+
+ .map{
+    width: 490px;
+    max-width: 100%;
+    height: auto;
+
+
+ }
+
+
+
+ .watgeb{
+    background-color: #ddbea9;
+ }
+
+
+
+ /* تعديلات تتكيف مع أحجام الشاشات */
+@media screen and (max-width: 600px) {
+    /* تعديلات CSS هنا لحجم الشاشات الصغيرة */
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* تعديلات CSS هنا لحجم الشاشات المتوسطة */
+}
+
+@media screen and (min-width: 1025px) {
+    /* تعديلات CSS هنا لحجم الشاشات الكبيرة */
+}
+/* قواعد الصفحات الصغيرة */
+@media screen and (max-width: 600px) {
+    .ref {
+        width: 90%;
+        border: 4px solid #ffe8d6;
+    }
+
+    .thi {
+        width: 90%;
+    }
+
+    /* أي تعديلات أخرى تريدها للشاشات الصغيرة */
+}
+
+/* قواعد الصفحات المتوسطة */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .ref {
+        width: 70%;
+        border: 6px solid #ffe8d6;
+    }
+
+    .thi {
+        width: 70%;
+    }
+
+    /* أي تعديلات أخرى تريدها للشاشات المتوسطة */
+}
+
+
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6b705c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.loader {
+    border: 4px solid #090909;
+    border-top: 4px solid #db3434;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
